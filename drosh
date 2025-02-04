@@ -32,12 +32,6 @@ usage() { printf %s "\
   drosh
     simple droplet management
 
-  commands:
-    [c]reate [name] - Create a droplet
-    [d]elete [id]   - Delete a droplet
-    [s]how   [id]   - Show info about a droplet
-    [l]ist          - List all droplets
-
   env vars:
     DROSH_CREATE_DRY_RUN=false
     DROSH_CREATE_IMAGE=ubuntu-22-04-x64
